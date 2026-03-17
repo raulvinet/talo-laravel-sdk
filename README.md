@@ -5,7 +5,7 @@ SDK Laravel para integrar Talo.
 ## Instalación
 
 ```bash
-composer require tuvendor/talo-laravel-sdk
+composer require Virulenta/talo-laravel-sdk
 ```
 
 ## Publicar config
@@ -34,8 +34,8 @@ TALO_WEBHOOK_SECRET=
 ### Crear pago
 
 ```php
-use TuVendor\TaloLaravel\DTOs\CreatePaymentData;
-use TuVendor\TaloLaravel\Facades\TaloSdk;
+use Virulenta\TaloLaravel\DTOs\CreatePaymentData;
+use Virulenta\TaloLaravel\Facades\TaloSdk;
 
 $response = TaloSdk::createPayment(
     new CreatePaymentData(
@@ -59,7 +59,7 @@ $response = TaloSdk::getPayment('payment_id');
 ### Actualizar precio
 
 ```php
-use TuVendor\TaloLaravel\DTOs\UpdatePaymentPriceData;
+use Virulenta\TaloLaravel\DTOs\UpdatePaymentPriceData;
 
 $response = TaloSdk::updatePaymentPrice(
     'payment_id',
@@ -70,7 +70,7 @@ $response = TaloSdk::updatePaymentPrice(
 ### Crear customer
 
 ```php
-use TuVendor\TaloLaravel\DTOs\CreateCustomerData;
+use Virulenta\TaloLaravel\DTOs\CreateCustomerData;
 
 $response = TaloSdk::createCustomer(
     new CreateCustomerData(
@@ -109,5 +109,5 @@ En tu proyecto Laravel principal:
 Luego:
 
 ```bash
-composer require tuvendor/talo-laravel-sdk:@dev
+composer require Virulenta/talo-laravel-sdk:@dev
 ```

@@ -1,16 +1,16 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Support;
+namespace Virulenta\TaloLaravel\Support;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
-use TuVendor\TaloLaravel\DTOs\CreateCustomerData;
-use TuVendor\TaloLaravel\DTOs\CreatePaymentData;
-use TuVendor\TaloLaravel\DTOs\UpdatePaymentPriceData;
-use TuVendor\TaloLaravel\Exceptions\TaloAuthenticationException;
-use TuVendor\TaloLaravel\Exceptions\TaloRequestException;
+use Virulenta\TaloLaravel\DTOs\CreateCustomerData;
+use Virulenta\TaloLaravel\DTOs\CreatePaymentData;
+use Virulenta\TaloLaravel\DTOs\UpdatePaymentPriceData;
+use Virulenta\TaloLaravel\Exceptions\TaloAuthenticationException;
+use Virulenta\TaloLaravel\Exceptions\TaloRequestException;
 
 class Talo
 {

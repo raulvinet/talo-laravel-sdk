@@ -1,6 +1,6 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Exceptions;
+namespace Virulenta\TaloLaravel\Exceptions;
 
 class TaloAuthenticationException extends TaloException
 {

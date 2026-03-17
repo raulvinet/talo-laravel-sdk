@@ -1,9 +1,9 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Tests;
+namespace Virulenta\TaloLaravel\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use TuVendor\TaloLaravel\TaloServiceProvider;
+use Virulenta\TaloLaravel\TaloServiceProvider;
 
 class TestCase extends Orchestra
 {

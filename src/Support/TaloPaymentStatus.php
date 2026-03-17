@@ -1,6 +1,6 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Support;
+namespace Virulenta\TaloLaravel\Support;
 
 class TaloPaymentStatus
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Http\Controllers;
+namespace Virulenta\TaloLaravel\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Log;
-use TuVendor\TaloLaravel\Support\Webhook\TaloWebhookHandler;
+use Virulenta\TaloLaravel\Support\Webhook\TaloWebhookHandler;
 
 class TaloWebhookController extends Controller
 {

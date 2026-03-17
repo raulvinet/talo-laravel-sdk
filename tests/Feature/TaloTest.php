@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Http;
-use TuVendor\TaloLaravel\DTOs\CreatePaymentData;
-use TuVendor\TaloLaravel\Support\Talo;
+use Virulenta\TaloLaravel\DTOs\CreatePaymentData;
+use Virulenta\TaloLaravel\Support\Talo;
 
 it('obtains access token', function () {
     Http::fake([

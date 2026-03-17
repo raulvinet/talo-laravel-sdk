@@ -1,10 +1,10 @@
 <?php
 
-namespace TuVendor\TaloLaravel\Support\Webhook;
+namespace Virulenta\TaloLaravel\Support\Webhook;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Log;
-use TuVendor\TaloLaravel\Support\Talo;
+use Virulenta\TaloLaravel\Support\Talo;
 
 class TaloWebhookHandler
 {

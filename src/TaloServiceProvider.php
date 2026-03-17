@@ -1,10 +1,10 @@
 <?php
 
-namespace TuVendor\TaloLaravel;
+namespace Virulenta\TaloLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use TuVendor\TaloLaravel\Support\Talo;
-use TuVendor\TaloLaravel\Support\Webhook\TaloWebhookHandler;
+use Virulenta\TaloLaravel\Support\Talo;
+use Virulenta\TaloLaravel\Support\Webhook\TaloWebhookHandler;
 
 class TaloServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TuVendor\TaloLaravel\DTOs;
+namespace Virulenta\TaloLaravel\DTOs;
 
 class ClientData
 {
