@@ -1,5 +1,5 @@
 {
-  "name": "Virulenta/talo-laravel-sdk",
+  "name": "virulenta/talo-laravel-sdk",
   "description": "Laravel SDK for Talo API",
   "type": "library",
   "license": "MIT",
