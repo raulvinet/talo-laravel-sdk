@@ -14,6 +14,7 @@ class CreatePaymentData
         public readonly array $items = [],
         public readonly ?ClientData $client_data = null,
         public readonly ?string $user_id = null,
+        public readonly array $payment_options = ['transfer'],
     ) {
     }
 
@@ -31,6 +32,7 @@ class CreatePaymentData
             'motive' => $this->motive,
             'items' => empty($this->items) ? null : $this->items,
             'client_data' => $this->client_data?->toArray(),
+            'payment_options' => empty($this->payment_options) ? null : $this->payment_options,
         ], fn ($value) => !is_null($value));
     }
 }
